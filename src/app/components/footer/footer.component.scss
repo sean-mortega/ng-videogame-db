@@ -1,0 +1,63 @@
+.footer {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    padding: 2.5rem 4rem; 
+    max-width: 1200px;
+    position: relative;
+    margin-top: 40px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 4px;
+        background: rgba(255,255,255,0.3);
+        width: 100%;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        h2 {
+            color: #fff;
+            font-weight: 900;
+        }
+        p {
+            color: rgba(255,255,255,0.5);
+        }
+    }
+
+    &-links {
+        display: flex;
+        width: 100%;
+        flex: 1 1 0%;
+        flex-wrap: wrap;
+        gap: 5rem;
+        justify-content: flex-end;
+        &-inner {
+            display: flex;
+            min-width: 170px;
+            flex-direction: column;
+            gap: 1.5rem;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            h3 {
+                color: rgba(255,255,255,0.7);
+            }
+            a {
+                color: rgba(255,255,255,0.5);
+                text-decoration: none;
+                transition-duration: 0.3s;
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    
+}
