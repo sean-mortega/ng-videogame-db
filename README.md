@@ -1,6 +1,8 @@
-# NgVideogameDb
+### Angular Video Game Database
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+* This is a test project that showcases a game database with use of API from rawg.io
+* Heavily inspired by a yt tutorial by FreeCodeCamp.org
+* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
 ## Development server
 
