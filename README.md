@@ -1,4 +1,4 @@
-### Angular Video Game Database
+# Angular Video Game Database
 
 * This is a test project that showcases a game database with use of API from rawg.io
 * Heavily inspired by a yt tutorial by FreeCodeCamp.org
